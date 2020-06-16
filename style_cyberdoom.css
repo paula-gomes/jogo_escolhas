@@ -1,0 +1,51 @@
+body{
+
+    display:flex; 
+    justify-content: center;
+    align-items: center;     
+    height: 70vh;
+    background:#283747;
+}
+
+#titulo{
+
+    text-align: center;
+    font-family:fantasy;
+    padding-top: 5px;
+}
+
+
+#texto{
+
+    text-align: center;
+    font-family:fantasy;
+    padding: 10px;
+    color: palegreen;
+
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    background: #13699b;
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+.respostas{
+    display: flex;    
+    flex-direction: column;  
+    padding: 15px; 
+     
+}
+#btn_1{
+    margin-bottom: 15px;
+    font-family:fantasy;
+}
+#btn_2{
+    font-family:fantasy;
+}
+#btn_3{
+    font-family:fantasy;
+}
